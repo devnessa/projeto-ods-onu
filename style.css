@@ -1,0 +1,155 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: 'Walter Turncoat', cursive;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+
+audio {
+  /*Usei para a música de fundo*/
+  border-radius: 30%;
+  width: 100%;
+  height: 5%;
+}
+
+header {
+  background-color: rgb(113, 141, 121);
+  border: 7px inset brown;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+  
+/*Usei para o nome da página*/
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px black;
+}
+
+/*Usei para os subtítulos (títulos das submetas)*/
+h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: 7px inset brown;
+  background-color: rgb(113, 141, 121);
+  font-size: 22px;
+}
+
+/*Usei para as descrições das metas*/
+p {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  line-height: 0.5cm;
+}
+
+div {
+  text-align: left;
+}
+
+.footerIcons {
+  display: inline-block;
+}
+
+/*Usei para as imagens*/
+img {
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+/*Usei para fazer a descrição de coisas que podemos contribuir para alcançar as ODS4 da ONU dentro e fora dos tópicos*/    
+dl, dd {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  line-height: 0.5cm;
+}
+
+/*Usei para fazer a lista de coisas que podemos contribuir para alcançar as ODS4 da ONU*/    
+dt {
+  color: rgb(255, 255, 255);
+  font-style: bold;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 0.5cm;
+}
+
+/*Usei para o formulário*/
+form{
+  border-radius: 5px;
+  background-color: rgb(49, 133, 67);
+  padding: 20px;
+  font-size: 14px;
+}
+
+label {
+  color: white;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#ltel {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#lemail {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#lideia {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+    
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(12, 68, 46);
+  color: white;
+  font-style: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*Usei para por infos sobre mim*/
+footer {
+  background-color: rgb(35, 53, 44);
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-style: bold;
+}
+
+a {
+  color: #0ff
+}
